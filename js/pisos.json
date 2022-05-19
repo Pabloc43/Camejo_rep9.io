@@ -1,0 +1,70 @@
+ [{
+    "TipoTramite" : "Venta",
+    "ImagenSRC" : "./algo",
+    "Titulo" : "Casa prooo",
+    "Precio" : 120,
+    "Habitaciones" : 2,
+    "m2" : 1200,
+    "TipoResidencia" : "Apartamento",
+    "Barrio" : "Pao de la Arena"
+},
+{
+    "TipoTramite" : "Alqui",
+    "ImagenSRC" : "./algo",
+    "Titulo" : "Casa pro",
+    "Precio" : 120,
+    "Habitaciones" : 2,
+    "m2" : 1200,
+    "TipoResidencia" : "Apartamento",
+    "Barrio" : "Pao de la Arena"
+},
+{
+    "TipoTramite" : "Venta",
+    "ImagenSRC" : "./algo",
+    "Titulo" : "Casa pro",
+    "Precio" : 120,
+    "Habitaciones" : 2,
+    "m2" : 1200,
+    "TipoResidencia" : "Apartamento",
+    "Barrio" : "Pao de la Arena"
+},
+{
+    "TipoTramite" : "Venta",
+    "ImagenSRC" : "./algo",
+    "Titulo" : "Casa pro",
+    "Precio" : 120,
+    "Habitaciones" : 2,
+    "m2" : 1200,
+    "TipoResidencia" : "Apartamento",
+    "Barrio" : "Pao de la Arena"
+},
+{
+    "TipoTramite" : "Venta",
+    "ImagenSRC" : "./algo",
+    "Titulo" : "Casa pro",
+    "Precio" : 120,
+    "Habitaciones" : 2,
+    "m2" : 1200,
+    "TipoResidencia" : "Apartamento",
+    "Barrio" : "Pao de la Arena"
+},
+{
+    "TipoTramite" : "Venta",
+    "ImagenSRC" : "./algo",
+    "Titulo" : "Casa pro",
+    "Precio" : 120,
+    "Habitaciones" : 2,
+    "m2" : 1200,
+    "TipoResidencia" : "Apartamento",
+    "Barrio" : "Pao de la Arena"
+},
+{
+    "TipoTramite" : "Venta",
+    "ImagenSRC" : "./algo",
+    "Titulo" : "Casa pro",
+    "Precio" : 120,
+    "Habitaciones" : 2,
+    "m2" : 1200,
+    "TipoResidencia" : "Apartamento",
+    "Barrio" : "Pao de la Arena"
+}]
