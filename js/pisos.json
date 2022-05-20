@@ -1,16 +1,16 @@
  [{
-    "TipoTramite" : "Venta",
-    "ImagenSRC" : "./algo",
-    "Titulo" : "Casa prooo",
-    "Precio" : 120,
-    "Habitaciones" : 2,
-    "m2" : 1200,
-    "TipoResidencia" : "Apartamento",
-    "Barrio" : "Pao de la Arena"
+    "TipoTramite" : "Alquiler",
+    "ImagenSRC" : "https://pixabay.com/get/g0a3b96d2dc6ad5d46090ff59dfde87d0b4410ed9001a57a71c3aaf7e3d8ed38046d67aed8bf810a1e80b091d45a5b708c1f240a3f037cd374d0fdc46a11c7fb2ec27681b0880e07af89c0b5b6702cfae_1280.jpg",
+    "Titulo" : "Casa Alta Gama",
+    "Precio" : 120.000,
+    "Habitaciones" : 20,
+    "m2" : 300,
+    "TipoResidencia" : "Mansion",
+    "Barrio" : "Punta del Este"
 },
 {
     "TipoTramite" : "Alqui",
-    "ImagenSRC" : "./algo",
+    "ImagenSRC" : "https://pixabay.com/get/g71b0a8b2f04e061e8ba5de13c77a942b20ce42ac0cc929c7f4e5e355f46a53e0c9a7769dfd08c0fa805b4935714f55e7a32922b590dc9d31496897a26f08941f5f95e97cb7be62edafdc89c5ae6f3d5f_1920.jpg",
     "Titulo" : "Casa pro",
     "Precio" : 120,
     "Habitaciones" : 2,
@@ -20,7 +20,7 @@
 },
 {
     "TipoTramite" : "Venta",
-    "ImagenSRC" : "./algo",
+    "ImagenSRC" : "https://pixabay.com/get/gb2526df6d5ce052971f01a1e85106c841a5a903129de9a141e51d11d0f2d33324d920df8fa303dfb5ee53269a71d65e201f36b9e5bfacb89aeb418fdb210eafd59f73ae4311182f878c44d0326b14953_640.jpg",
     "Titulo" : "Casa pro",
     "Precio" : 120,
     "Habitaciones" : 2,
@@ -30,7 +30,7 @@
 },
 {
     "TipoTramite" : "Venta",
-    "ImagenSRC" : "./algo",
+    "ImagenSRC" : "https://pixabay.com/get/gec79ff2737fe97add7570cb7c18d4ab9dd50b7545f29b2a256273f9b98601f8bcfb9ac9c42e276c5ca9d10a2e8a774dab35b4218d8662de443641438ed03a6a0e5f96403e2f0d8af53e2a495d696a107_1920.jpg",
     "Titulo" : "Casa pro",
     "Precio" : 120,
     "Habitaciones" : 2,
@@ -40,7 +40,7 @@
 },
 {
     "TipoTramite" : "Venta",
-    "ImagenSRC" : "./algo",
+    "ImagenSRC" : "https://pixabay.com/get/gb601e52e52bccea100be40e457ccfe5d8981c1dd5f747a59e819eafd12abd0d2dae1751a82aa9ff393d0a89a96c986d3cc22d3a2a674c3d8f1be1a9edfcb673ff0fc36795e74071f66c8ccbb0f0f67c9_1280.jpg",
     "Titulo" : "Casa pro",
     "Precio" : 120,
     "Habitaciones" : 2,
@@ -50,7 +50,7 @@
 },
 {
     "TipoTramite" : "Venta",
-    "ImagenSRC" : "./algo",
+    "ImagenSRC" : "https://pixabay.com/get/gc48e5b0b4d11a8fe3004ac4a22530941a67476cb81f7312a7b438918041d125b270818e3b91662a9752c9ac4827a52835ebdfdc73a26e64937c0ad1608dbbd4fbafdb1906f38bed26104e5846cd8cf2f_1920.jpg",
     "Titulo" : "Casa pro",
     "Precio" : 120,
     "Habitaciones" : 2,

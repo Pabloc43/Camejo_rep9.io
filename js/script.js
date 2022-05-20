@@ -24,13 +24,18 @@ function mostrarEstudiantes(datosEst){
               tabla += `
               <div class="col-3">
                 <div class="card h-100">
-                  <img src="images/imagen.jpg" class="card-img-top" alt="...">
-                  <div class="card-body">
-                    <h5 class="card-title">${estudiante.Titulo}</h5>
-                    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                  <button class="w-25 position-absolute">${estudiante.TipoTramite}</button>
+                  <img src="${estudiante.ImagenSRC}" class="card-img-top" alt="...">
+                  <div class="card-body d-flex flex-column justify-content-between">
+                    <div>
+                      <h4 class="card-title">${estudiante.Titulo}</h4>
+                      <h4>$${estudiante.Precio}</h4>
+                    </div>
+                    <p>${estudiante.Barrio}               
                   </div>
-                  <div class="card-footer">
-                    <small class="text-muted">Last updated 3 mins ago</small>
+                  <div class="card-footer flex-row d-flex justify-content-between">
+                    <p>${estudiante.TipoResidencia}</p>
+                    <p>${estudiante.Habitaciones} Habitaciones - ${estudiante.m2}m2</p>  
                   </div>
                 </div>
               </div>`
