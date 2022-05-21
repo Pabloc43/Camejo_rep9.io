@@ -22,7 +22,7 @@ function mostrarEstudiantes(datosEst){
               //lista.push(datosEst[i])
               let estudiante = datosEst[i];
               tabla += `
-              <div class="col-3">
+              <div class="col col-md-4 col-lg-3 col-12">
                 <div class="card h-100">
                   <button class="w-25 position-absolute">${estudiante.TipoTramite}</button>
                   <img src="${estudiante.ImagenSRC}" class="card-img-top" alt="...">

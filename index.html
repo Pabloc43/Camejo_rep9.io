@@ -1,114 +1,175 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Me mudo ya!</title>
-    <link rel="icon" type="image/png" href="images/logo.png">
-    <script src="https://kit.fontawesome.com/d76928205d.js" crossorigin="anonymous"></script>
-    <!-- CSS only -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
-    <!-- JavaScript Bundle with Popper -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/style.css">
-    <script src="js/script.js"></script>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Me mudo ya!</title>
+  <link rel="icon" type="image/png" href="images/logo.png">
+  <script src="https://kit.fontawesome.com/d76928205d.js" crossorigin="anonymous"></script>
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <!-- JavaScript Bundle with Popper -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js"></script>
+  <meta charset="UTF-8">
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
-    <!--vdfgfg-->
-    <header>
-        <nav class="navbar navbar-inverse navbar-fixed-top">
-            <div class="container-fluid">
-              <div class="navbar-header">
-                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>                        
-                </button>
-                <img src="images/logo.png" class="navbar-brand logo " alt="">
-              </div>
-              <div>
-                <div class="collapse navbar-collapse" id="myNavbar">
-                  <ul class="nav navbar-nav d-flex flex-row">
-                    <li><a href="#section1">Section 1</a></li>
-                    <li><a href="#section2">Section 2</a></li>
-                    <li><a href="#section3">Section 3</a></li>
-                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Section 4 <span class="caret"></span></a>
-                      <ul class="dropdown-menu">
-                        <li><a href="#section41">Section 4-1</a></li>
-                        <li><a href="#section42">Section 4-2</a></li>
-                      </ul>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </nav>    
-          <!--
-          <div id="section1" class="container-fluid">
-            <h1>Section 1</h1>
-            <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-            <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
+  <!--Cabecera-->
+  <header>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>                        
+          </button>
+          <img src="images/logo.png" class="navbar-brand logo " alt="">
+        </div>
+        <div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav d-flex flex-row">
+              <li><a href="#carouselExampleInterval">Inicio</a></li>
+              <li><a href="#section2">Publicaciones</a></li>
+              <li><a href="#section3">Contacto</a></li>
+            </ul>
           </div>
-          <div id="section2" class="container-fluid">
-            <h1>Section 2</h1>
-            <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-            <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-          </div>
-          <div id="section3" class="container-fluid">
-            <h1>Section 3</h1>
-            <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-            <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-          </div>
-          <div id="section41" class="container-fluid">
-            <h1>Section 4 Submenu 1</h1>
-            <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-            <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-          </div>
-          <div id="section42" class="container-fluid">
-            <h1>Section 4 Submenu 2</h1>
-            <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-            <p>Try to scroll this section and look at the navigation bar while scrolling! Try to scroll this section and look at the navigation bar while scrolling!</p>
-          </div>
-        -->
-   
-    </header>
+        </div>
+      </div>
+    </nav>    
+  </header>
 
-      <!--cfvf-->
-      <main>
-        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active" data-bs-interval="10000">
-                <img src="images/imagen.jpg" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item" data-bs-interval="2000">
-                <img src="images/imagen.jpg" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="images/imagen.jpg" class="d-block w-100" alt="...">
+  <!--Principal-->
+  <main>
+
+    <!--Carrusel-->
+    <section id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+          <img src="images/imagen.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="images/imagen.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="images/imagen.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </section>
+    
+    <!--Partners-->
+    <section class="my-5 container-fluid" id="section2">
+      <div class="row row-cols-1 row-cols-md-3 g-4">        
+        <!--coso abre-->
+       
+          <div class="col">
+            <div class="card">
+              <img src="..." class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
               </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
           </div>
-    
-          <section class="h-50 m-5">
-              seccion marcas
-          </section>
-          <!--dgfg-->
-          <div class="d-flex flex-column align-items-center">
-            <h1 class="mb-4 bg-dark bg-opacity-50 px-5 py-1 rounded-2 text-black">Publicaciones:</h1>
-            <button class="btn btn-dark" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">Categorias ☰</button>
+          <div class="col">
+            <div class="card">
+              <img src="..." class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+            </div>
           </div>
+          <div class="col">
+            <div class="card">
+              <img src="..." class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="..." class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--coso cierre-->
+        <div class="col h-100">
+          <div class="card" style="width: 18rem;">
+            <img src="https://yiminshum.com/wp-content/uploads/2020/11/General-Electric-LOGO-300x300.png" class="card-img-top h-100" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col h-100">
+          <div class="card" style="width: 18rem;">
+            <img src="https://yiminshum.com/wp-content/uploads/2020/11/Siemens-logo-600x143.png" class="card-img-top h-100" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <a href="#" class="btn btn-primary">Go somewhere</a>
+            </div>
+          </div>
+        </div>
+        <div class="col h-100">
+          <div class="card" style="width: 18rem;">
+  <img src="https://yiminshum.com/wp-content/uploads/2020/11/Bosch_logo-600x142.png" class="card-img-top h-100" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+        </div>
+        <div class="col h-100">
+          <div class="card" style="width: 18rem;">
+  <img src="https://yiminshum.com/wp-content/uploads/2020/11/Hitachi_Logo-600x104.png" class="card-img-top h-100" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+        </div>
+        <div class="col h-100">
+          <div class="card" style="width: 18rem;">
+  <img src="https://yiminshum.com/wp-content/uploads/2020/11/CRCC_LOGO-600x412.png" class="card-img-top h-100" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div>
+        </div>
+      </div>
+    </section>
+
+    <!--Seccion carrito-->
+    <div class="d-flex flex-column align-items-center">
+      <h1 class="mb-4 bg-dark bg-opacity-50 px-5 py-1 rounded-2 text-black">Publicaciones:</h1>
+      <button class="btn btn-dark mb-5" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">Categorias ☰</button>
+    </div>
 
 <div class="offcanvas offcanvas-start bg-black text-light" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
   <div class="offcanvas-header">
@@ -142,7 +203,7 @@
         </li>
         <li>
           <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle text-white">Barrio</a>
-          <ul class="collapse list-unstyled" id="pageSubmenu">
+          <ul class="collapse list-unstyled mb-3" id="pageSubmenu">
             <li>
               <a href="#">Paso de la Arena</a>
             </li>
@@ -156,7 +217,7 @@
         </li>
         <li>
           <a href="#pageSubmenu2" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle text-white">Intereses</a>
-          <ul class="collapse list-unstyled" id="pageSubmenu2">
+          <ul class="collapse list-unstyled mb-3" id="pageSubmenu2">
             <li>
               <a href="#">Venta</a>
             </li>
@@ -167,8 +228,8 @@
         </li>
         <li>
           <a href="#pageSubmenu3" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle text-white">Precio</a>
-          <ul class="collapse list-unstyled" id="pageSubmenu3">
-            <li>
+          <ul class="collapse list-unstyled mb-3" id="pageSubmenu3">
+            <li class="mb-2">
               <div class="form-outline">
                 <label class="form-label" for="typeNumber">Minimo</label>
                 <input type="number" id="typeNumber" class="form-control" />
@@ -184,8 +245,8 @@
         </li>
         <li>
           <a href="#pageSubmenu4" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle text-white">Habitaciones</a>
-          <ul class="collapse list-unstyled" id="pageSubmenu4">
-            <li>
+          <ul class="collapse list-unstyled mb-3" id="pageSubmenu4">
+            <li class="mb-2">
               <div class="form-outline">
                 <label class="form-label" for="typeNumber">Minimo</label>
                 <input type="number" id="typeNumber" class="form-control" />
@@ -201,7 +262,7 @@
         </li>
         <li>
           <a href="#pageSubmenu5" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle text-white">Dimensiones</a>
-          <ul class="collapse list-unstyled" id="pageSubmenu5">
+          <ul class="collapse list-unstyled mb-3" id="pageSubmenu5">
             <li>
               <div class="form-outline">
                 <label class="form-label" for="typeNumber">Minimo</label>
@@ -218,67 +279,21 @@
         </li>
       </ul>
 <!--sfvknksfv-->
-      <ul class="list-unstyled components">
-        <p>Buscar por:</p>
-        <li class="active">
-            <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle text-white">Tipo</a>
-            <ul class="collapse list-unstyled" id="homeSubmenu">
-                <li>
-                    <a href="#">Casa</a>
-                </li>
-                <li>
-                    <a href="#">Apartamento</a>
-                </li>
-                <li>
-                    <a href="#">Local comercial</a>
-                </li>
-            </ul>
+      <ul class="list-unstyled components mt-4">
+        <h4>Filtros:</h4>
+        <li class="d-flex">
+          <p class="me-2">Apartamento</p>
+          <p>❎</p>
         </li>
-        <li>
-            <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle text-white">Pages</a>
-            <ul class="collapse list-unstyled" id="pageSubmenu">
-                <li>
-                    <a href="#">Page 1</a>
-                </li>
-                <li>
-                    <a href="#">Page 2</a>
-                </li>
-                <li>
-                    <a href="#">Page 3</a>
-                </li>
-            </ul>
-        </li>
-        <li>
-            <a href="#">Portfolio</a>
-        </li>
-        <li>
-            <a href="#">Contact</a>
+        <li class="d-flex">
+            <p class="me-2">Paso de la Arena</p>
+            <p>❎</p>
         </li>
     </ul>
   </nav>
   </div>
 </div>
-          <!--fdfv-->
-          <div class="row row-cols-1 row-cols-md-3 g-4">
-            <div class="col-8">
-              <div class="card h-100">
-                <button class="w-25 position-absolute">Venta</button>
-                <img src="images/imagen.jpg" class="card-img-top" alt="...">
-                <div class="card-body d-flex flex-column justify-content-between">
-                  <div>
-                  <h4 class="card-title">Card titvvvle</h4>
-                  <h4>$25</h4>
-                  </div>
-                  <p>Paso de la Arena</p>
-                </div>
-                <div class="card-footer flex-row d-flex justify-content-between text-muted">
-                    <p>Apartamento</p>
-                    <p>2 Habitaciones - 20m2</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <section id="acaTabla" class="container"></section>
+          <section id="acaTabla" class="container mt-5"></section>
 
           <!--edfbg-->
           <nav aria-label="...">
@@ -299,11 +314,12 @@
           <section class="">
               seccion testimonios
           </section>
+          <div ></div>
       </main>
       
 
       <!--fbffg-->
-      <footer class="bg-dark text-center text-white" id="section41">
+      <footer class="bg-dark text-center text-white" id="section3">
         <!-- Grid container -->
         <div class="container p-4">
           <!-- Section: Social media -->

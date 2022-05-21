@@ -6,7 +6,8 @@
     "Habitaciones" : 20,
     "m2" : 300,
     "TipoResidencia" : "Mansion",
-    "Barrio" : "Punta del Este"
+    "Barrio" : "Punta del Este",
+    "Auspiciantes" : "Casas Top"
 },
 {
     "TipoTramite" : "Alqui",
@@ -16,7 +17,8 @@
     "Habitaciones" : 2,
     "m2" : 1200,
     "TipoResidencia" : "Apartamento",
-    "Barrio" : "Pao de la Arena"
+    "Barrio" : "Pao de la Arena",
+    "Auspiciantes" : "Casas Top"
 },
 {
     "TipoTramite" : "Venta",
@@ -26,7 +28,8 @@
     "Habitaciones" : 2,
     "m2" : 1200,
     "TipoResidencia" : "Apartamento",
-    "Barrio" : "Pao de la Arena"
+    "Barrio" : "Pao de la Arena",
+    "Auspiciantes" : "Casas Top"
 },
 {
     "TipoTramite" : "Venta",
@@ -36,7 +39,8 @@
     "Habitaciones" : 2,
     "m2" : 1200,
     "TipoResidencia" : "Apartamento",
-    "Barrio" : "Pao de la Arena"
+    "Barrio" : "Pao de la Arena",
+    "Auspiciantes" : "Casas Top"
 },
 {
     "TipoTramite" : "Venta",
@@ -46,7 +50,8 @@
     "Habitaciones" : 2,
     "m2" : 1200,
     "TipoResidencia" : "Apartamento",
-    "Barrio" : "Pao de la Arena"
+    "Barrio" : "Pao de la Arena",
+    "Auspiciantes" : "Casas Top"
 },
 {
     "TipoTramite" : "Venta",
@@ -56,7 +61,8 @@
     "Habitaciones" : 2,
     "m2" : 1200,
     "TipoResidencia" : "Apartamento",
-    "Barrio" : "Pao de la Arena"
+    "Barrio" : "Pao de la Arena",
+    "Auspiciantes" : "Casas Top"
 },
 {
     "TipoTramite" : "Venta",
@@ -66,5 +72,6 @@
     "Habitaciones" : 2,
     "m2" : 1200,
     "TipoResidencia" : "Apartamento",
-    "Barrio" : "Pao de la Arena"
+    "Barrio" : "Pao de la Arena",
+    "Auspiciantes" : "Casas Top"
 }]
