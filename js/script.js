@@ -25,7 +25,7 @@ function mostrarEstudiantes(datosEst){
               <div class="col col-md-4 col-lg-3 col-12">
                 <div class="card h-100">
                   <button class="w-25 position-absolute">${estudiante.TipoTramite}</button>
-                  <img src="${estudiante.ImagenSRC}" class="card-img-top" alt="...">
+                  <img src="../images/${estudiante.ImagenSRC}" class="card-img-top" alt="...">
                   <div class="card-body d-flex flex-column justify-content-between">
                     <div>
                       <h4 class="card-title">${estudiante.Titulo}</h4>
