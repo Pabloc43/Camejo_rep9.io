@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Me mudo ya!</title>
+  <link rel="icon" type="image/png" href="images/logo.png">
+  <script src="https://kit.fontawesome.com/d76928205d.js" crossorigin="anonymous"></script>
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  <!-- JavaScript Bundle with Popper -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/style.css">
+  <script defer src="js/script.js"></script>
+  <meta charset="UTF-8">
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+  <!--Cabecera-->
+  <header>
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>                        
+          </button>
+          <img src="images/logo.png" class="navbar-brand logo " alt="">
+        </div>
+        <div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav d-flex flex-row">
+              <li><a href="#carouselExampleInterval">Inicio</a></li>
+              <li><a href="#section2">Publicaciones</a></li>
+              <li><a href="#section3">Contacto</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>    
+  </header>
+
+  <!--Principal-->
+  <main>
+
+    <!--Carrusel-->
+    <section id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+          <img src="images/imagen1.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item" data-bs-interval="2000">
+          <img src="images/imagen2.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="images/imagen3.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </section>
+    
+    <!--Partners-->
+    <section class="my-5 container">
+      <div class="row g-4 d-flex justify-content-center text-center"> 
+
+        <h2 class="col-12 mt-5 mb-4">Nuestros Partners:</h2>
+        
+        <div class="col-lg-2 col-md-3 col-sm-12">
+          <div class="card">
+            <img src="./images/GE.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">General Electric</h5>
+              <a href="#!" class="btn btn-primary" id="GE">Ver ofertas</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-3 col-sm-12">
+          <div class="card">
+            <img src="./images/SM.png" class="card-img-top " alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Siemens</h5>
+              <a href="#!" class="btn btn-primary" id="SM">Ver ofertas</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-3 col-sm-12">
+          <div class="card">
+            <img src="./images/B.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Bosch</h5>
+              <a href="#!" class="btn btn-primary" id="B">Ver ofertas</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-3 col-sm-12">
+          <div class="card">
+            <img src="./images/H.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Hitachi</h5>
+              <a href="#!" class="btn btn-primary" id="H">Ver ofertas</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-md-3 col-sm-12" >
+          <div class="card">
+            <img src="./images/C.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">C.R.C.C.</h5>
+              <a href="#!" class="btn btn-primary" id="C">Ver ofertas</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!--Seccion carrito-->
+    <section class="d-flex flex-column align-items-center" >
+      <h1 class="mb-4 bg-dark bg-opacity-50 px-5 py-1 rounded-2 text-black">Publicaciones:</h1>
+      <button class="btn btn-dark mb-5" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">Categorias ☰</button>
+    </section>
+
+    <!--Aside menu busquedas-->
+    <aside class="offcanvas offcanvas-start bg-black text-light" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+      
+      <!--Cabeza aside-->
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasScrollingLabel">Categorias</h5>
+        <button type="button" class="btn-close bg-danger" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+
+      <!--Cuerpo aside-->
+      <div class="offcanvas-body">
+        <nav id="sidebar">
+          <!--Barra navegacion aside-->
+          <div class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" id="buscador">
+            <button class="btn btn-outline-success" id="buscar">Search</button>
+          </div>
+
+          <!--Filtros a aplicar aside-->
+          <div class="sidebar-header">
+            <h3>Busquedas por:</h3>
+          </div>
+          <ul class="list-unstyled components">
+            <li class="active">
+              <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle text-white">Tipo</a>
+              <ul class="collapse list-unstyled mb-3" id="homeSubmenu">
+                <li>
+                  <a href="#">Casa</a>
+                </li>
+                <li>
+                  <a href="#">Apartamento</a>
+                </li>
+                <li>
+                  <a href="#">Local comercial</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle text-white">Barrio</a>
+              <ul class="collapse list-unstyled mb-3" id="pageSubmenu">
+                <li>
+                  <a href="#">Paso de la Arena</a>
+                </li>
+                <li>
+                  <a href="#">Cerro</a>
+                </li>
+                <li>
+                  <a href="#">Pajas Blancas</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="#pageSubmenu2" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle text-white">Intereses</a>
+              <ul class="collapse list-unstyled mb-3" id="pageSubmenu2">
+                <li>
+                  <a href="#">Venta</a>
+                </li>
+                <li>
+                  <a href="#">Alquiler</a>
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="#pageSubmenu3" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle text-white">Precio</a>
+              <ul class="collapse list-unstyled mb-3" id="pageSubmenu3">
+                <li class="mb-2">
+                  <div class="form-outline">
+                    <label class="form-label" for="typeNumber">Minimo</label>
+                    <input type="number" id="typeNumber" class="form-control" />
+                  </div>
+                </li>
+                <li>
+                  <div class="form-outline">
+                    <label class="form-label" for="typeNumber">Maximo</label>
+                    <input type="number" id="typeNumber" class="form-control" />
+                  </div>            
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="#pageSubmenu4" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle text-white">Habitaciones</a>
+              <ul class="collapse list-unstyled mb-3" id="pageSubmenu4">
+                <li class="mb-2">
+                  <div class="form-outline">
+                    <label class="form-label" for="typeNumber">Minimo</label>
+                    <input type="number" id="typeNumber" class="form-control" />
+                  </div>
+                </li>
+                <li>
+                  <div class="form-outline">
+                    <label class="form-label" for="typeNumber">Maximo</label>
+                    <input type="number" id="typeNumber" class="form-control" />
+                  </div>            
+                </li>
+              </ul>
+            </li>
+            <li>
+              <a href="#pageSubmenu5" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle text-white">Dimensiones</a>
+              <ul class="collapse list-unstyled mb-3" id="pageSubmenu5">
+                <li>
+                  <div class="form-outline">
+                    <label class="form-label" for="typeNumber">Minimo</label>
+                    <input type="number" id="typeNumber" class="form-control" />
+                  </div>
+                </li>
+                <li>
+                  <div class="form-outline">
+                    <label class="form-label" for="typeNumber">Maximo</label>
+                    <input type="number" id="typeNumber" class="form-control" />
+                  </div>            
+                </li>
+              </ul>
+            </li>
+          </ul>
+      
+              <!--Filtros aplicados aside-->
+          <ul class="list-unstyled components mt-4">
+            <h4>Filtros:</h4>
+            <li class="d-flex">
+              <p class="me-2">Apartamento</p>
+              <p>❎</p>
+            </li>
+            <li class="d-flex">
+                <p class="me-2">Paso de la Arena</p>
+                <p>❎</p>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </aside>
+
+    <!--Seccion carrito-->
+    <section id="acaTabla" class="container mt-5"></section>
+
+    <!--Pseudo-paginacion-->
+    <section class="d-flex justify-content-center mt-4 ">
+      <nav aria-label="...">
+        <ul class="pagination">
+          <li class="page-item disabled">
+            <span class="page-link">Previous</span>
+          </li>
+          <li class="page-item"><a class="page-link" href="#">1</a></li>
+          <li class="page-item active" aria-current="page">
+            <span class="page-link">2</span>
+          </li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item">
+            <a class="page-link" href="#">Next</a>
+          </li>
+        </ul>
+      </nav>
+    </section>
+
+    <!--Testimonios-->
+    <section class="container my-5">
+      <div class="row">
+        <div class="col">
+          <div class="card text-center">
+            <div class="card-header">
+              Testimonios
+            </div>
+            <div class="card-body">
+              <h4 class="card-title">Nombre original</h4>
+              <p class="card-text m-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis voluptates asperiores cupiditate optio doloremque expedita nemo, autem aliquam maxime fuga, corrupti unde a quaerat quo! Inventore temporibus rem est praesentium.</p>
+              <a href="#" class="btn btn-primary">Dejar un comentario</a>
+            </div>
+            <div class="card-footer text-muted">
+              2 days ago
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!--Footer-->
+  <footer class="bg-dark text-center text-white mt-5" id="section3">
+    <div class="container p-4">
+      <section class="mb-4">
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-google"></i
+        ></a>
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-instagram"></i
+        ></a>
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-linkedin-in"></i
+        ></a>
+      </section>
+
+      <section class="">
+        <form action="">
+          <div class="row d-flex justify-content-center">
+            <div class="col-auto">
+              <p class="pt-2">
+                <strong>Envianos mail:</strong>
+              </p>
+            </div>
+            <div class="col-md-5 col-12">
+              <div class="form-outline form-white mb-4">
+                <input type="email" id="form5Example21" class="form-control" />
+                <label class="form-label" for="form5Example21">Ingresa mail</label>
+              </div>
+            </div>
+            <div class="col-auto">
+              <button type="submit" class="btn btn-outline-light mb-4">
+                Enviar
+              </button>
+            </div>
+          </div>
+        </form>
+      </section>
+
+      <!--Seccion mas informacion-->
+      <section class="mb-4">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio earum
+          repellat quaerat voluptatibus placeat nam, commodi optio pariatur est quia magnam
+          eum harum corrupti dicta, aliquam sequi voluptate quas.
+        </p>
+      </section>
+
+      <section class="">
+        <div class="row">
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Redes</h5>
+  
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" class="text-white">Link 1</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 2</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 3</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 4</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Ayuda</h5>
+  
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" class="text-white">Link 1</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 2</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 3</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 4</a>
+              </li>
+            </ul>
+          </div>
+          
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Medios de pago</h5>
+  
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" class="text-white">Link 1</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 2</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 3</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Partners</h5>
+  
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" class="text-white">Link 1</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 2</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white">Link 3</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </div>
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © Creado por Pablo para 
+      <a class="text-white" href="https://matea.social/academia.html#" target="_blank">Matea </a>
+      2022
+    </div>
+  </footer>
+</body>
+</html>
