@@ -163,13 +163,13 @@
               <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle text-white">Tipo</a>
               <ul class="collapse list-unstyled mb-3" id="homeSubmenu">
                 <li>
-                  <a href="#">Casa</a>
+                  <a href="#!" id="tipo1">Casa</a>
                 </li>
                 <li>
-                  <a href="#">Apartamento</a>
+                  <a href="#!" id="tipo2">Apartamento</a>
                 </li>
                 <li>
-                  <a href="#">Local comercial</a>
+                  <a href="#!" id="tipo3">Local comercial</a>
                 </li>
               </ul>
             </li>
@@ -177,13 +177,19 @@
               <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle text-white">Barrio</a>
               <ul class="collapse list-unstyled mb-3" id="pageSubmenu">
                 <li>
-                  <a href="#">Paso de la Arena</a>
+                  <a href="#!" id="lugar1">Paso de la Arena</a>
                 </li>
                 <li>
-                  <a href="#">Cerro</a>
+                  <a href="#!" id="lugar2">Punta del Este</a>
                 </li>
                 <li>
-                  <a href="#">Pajas Blancas</a>
+                  <a href="#!" id="lugar3">Punta Espinillo</a>
+                </li>
+                <li>
+                  <a href="#!" id="lugar4">Cerro</a>
+                </li>
+                <li>
+                  <a href="#!" id="lugar5">Casabo</a>
                 </li>
               </ul>
             </li>
@@ -191,10 +197,10 @@
               <a href="#pageSubmenu2" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle text-white">Intereses</a>
               <ul class="collapse list-unstyled mb-3" id="pageSubmenu2">
                 <li>
-                  <a href="#">Venta</a>
+                  <a href="#!" id="interes1">Venta</a>
                 </li>
                 <li>
-                  <a href="#">Alquiler</a>
+                  <a href="#!" id="interes2">Alquiler</a>
                 </li>
               </ul>
             </li>
@@ -204,13 +210,14 @@
                 <li class="mb-2">
                   <div class="form-outline">
                     <label class="form-label" for="typeNumber">Minimo</label>
-                    <input type="number" id="typeNumber" class="form-control" />
+                    <input type="number" id="min" class="form-control" min="0"/>
                   </div>
                 </li>
                 <li>
                   <div class="form-outline">
                     <label class="form-label" for="typeNumber">Maximo</label>
-                    <input type="number" id="typeNumber" class="form-control" />
+                    <input type="number" id="max" class="form-control" min="0"/>
+                    <button class="my-2 btn bg-secondary mt-4 text-black" id="precioRango">Buscar</button>
                   </div>            
                 </li>
               </ul>

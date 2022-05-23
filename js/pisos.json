@@ -1,6 +1,6 @@
  [{
     "TipoTramite" : "Alquiler",
-    "ImagenSRC" : "imagen1.jpg",
+    "ImagenSRC" : "./images/imagen1.jpg",
     "Titulo" : "Casa Alta Gama",
     "Precio" : 120000,
     "Habitaciones" : 5,
@@ -11,7 +11,7 @@
 },
 {
     "TipoTramite" : "Alquiler",
-    "ImagenSRC" : "imagen2.jpg",
+    "ImagenSRC" : "./images/imagen2.jpg",
     "Titulo" : "Residencia estudiantil",
     "Precio" : 200,
     "Habitaciones" : 8,
@@ -22,18 +22,18 @@
 },
 {
     "TipoTramite" : "Venta",
-    "ImagenSRC" : "imagen3.jpg",
+    "ImagenSRC" : "./images/imagen3.jpg",
     "Titulo" : "Mansion con campo",
     "Precio" : 130000,
     "Habitaciones" : 10,
     "m2" : 1400,
     "TipoResidencia" : "Casa",
-    "Barrio" : "Punta espinillo",
+    "Barrio" : "Cerro",
     "Auspiciantes" : "B"
 },
 {
     "TipoTramite" : "Venta",
-    "ImagenSRC" : "imagen4.jpg",
+    "ImagenSRC" : "./images/imagen4.jpg",
     "Titulo" : "Casa acogedora",
     "Precio" : 20000,
     "Habitaciones" : 4,
@@ -44,7 +44,7 @@
 },
 {
     "TipoTramite" : "Alquiler",
-    "ImagenSRC" : "imagen5.jpg",
+    "ImagenSRC" : "./images/imagen5.jpg",
     "Titulo" : "Tienda en zona turistica",
     "Precio" : 1500,
     "Habitaciones" : 5,
@@ -55,7 +55,7 @@
 },
 {
     "TipoTramite" : "Venta",
-    "ImagenSRC" : "imagen6.jpg",
+    "ImagenSRC" : "./images/imagen6.jpg",
     "Titulo" : "Casas residenciales",
     "Precio" : 120,
     "Habitaciones" : 2,
@@ -66,7 +66,7 @@
 },
 {
     "TipoTramite" : "Venta",
-    "ImagenSRC" : "imagen7.jpg",
+    "ImagenSRC" : "./images/imagen7.jpg",
     "Titulo" : "Casa en el campo",
     "Precio" : 40000,
     "Habitaciones" : 3,
@@ -77,7 +77,7 @@
 },
 {
     "TipoTramite" : "Alquiler",
-    "ImagenSRC" : "imagen8.jpg",
+    "ImagenSRC" : "./images/imagen8.jpg",
     "Titulo" : "Casa en el lago",
     "Precio" : 1800,
     "Habitaciones" : 2,
@@ -85,4 +85,26 @@
     "TipoResidencia" : "Casa",
     "Barrio" : "Punta Espinillo",
     "Auspiciantes" : "H"
+},
+{
+    "TipoTramite" : "Alquiler",
+    "ImagenSRC" : "./images/imagen9.jpg",
+    "Titulo" : "Local de fiestas",
+    "Precio" : 10000,
+    "Habitaciones" : 15,
+    "m2" : 1250,
+    "TipoResidencia" : "Local comercial",
+    "Barrio" : "Casabo",
+    "Auspiciantes" : "B"
+},
+{
+    "TipoTramite" : "Venta",
+    "ImagenSRC" : "./images/imagen10.jpg",
+    "Titulo" : "Tienda en zona turistica",
+    "Precio" : 1500,
+    "Habitaciones" : 5,
+    "m2" : 1200,
+    "TipoResidencia" : "Local comercial",
+    "Barrio" : "Punta del Este",
+    "Auspiciantes" : "C"
 }]

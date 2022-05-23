@@ -25,7 +25,7 @@ function mostrarCasas(datosPisos){
               <div class="col col-md-4 col-lg-3 col-12">
                 <div class="card h-100">
                   <button class="w-25 position-absolute">${piso.TipoTramite}</button>
-                  <img src="../images/${piso.ImagenSRC}" class="card-img-top" alt="...">
+                  <img src="${piso.ImagenSRC}" class="card-img-top" alt="...">
                   <div class="card-body d-flex flex-column justify-content-between">
                     <div>
                       <h4 class="card-title">${piso.Titulo}</h4>
@@ -85,162 +85,91 @@ buscarPartner(botonGE);
 buscarPartner(botonSM);
 buscarPartner(botonB);
 buscarPartner(botonH);
-buscarPartner(botonC)
-/*
-var botonPlata = document.getElementById("botonPlata");
-var botonHabitaciones = document.getElementById("botonHabitaciones");
-var botonTipo = document.getElementById("botonTipo");
-var botonMetros = document.getElementById("botonMetros");
-var botonBarrio = document.getElementById("botonBarrio");
-var botonAlquiler = document.getElementById("botonAlquiler");
-*/
-// var botonT = document.getElementById("botonTipo");
+buscarPartner(botonC);
 
-// function ordenarTipo(){
-//    let tarjeta = [];
-//     var listaFiltrada = tarjeta.filter(inmueble => {for(i=0; i<tarjeta.length; i++){
-//         inmueble[i].tipo = "Casa" 
-//      }});
-//     console.log(listaFiltrada)
-//     mostrarCasa(listaFiltrada)
 
-/* botonT.addEventListener("click",ordenarTipo)
-function ordenarBarrio(){
-    listaFiltrada = tarjeta.filter(function(anterior,siguiente){
-        if(anterior.barrio > siguiente.barrio){
-            return 1;
-        }
-        if(anterior.barrio < siguiente.barrio){
-            return -1
-        }
-        return 0;
+//Busqueda por tipo
+let tipo1 = document.getElementById("tipo1");
+let tipo2 = document.getElementById("tipo2");
+let tipo3 = document.getElementById("tipo3");
+
+function buscarTipo(tipo){
+    tipo.addEventListener("click", function (){
+        buscarPorTipo(tipo)
     })
-    mostrarCasa(listado)
-} *//*
-var botonT = document.getElementById("botonTipo");
+};
 
-function ordenarTipo(){
-    fetch("api.json")
-        .then(res=> res.json())
-        .then(data =>{
-            let listaFiltrada = [];
-            for(i=0; i< data.length; i++){
-                if(data[i].tipo == "Casa" && botonT.value=="Casa"){
-                    listaFiltrada.push(data[i])
-                } else if (data[i].tipo == "Apartamento" && botonT.value=="Apartamento"){
-                    listaFiltrada.push(data[i])
-                }
-            }
-        console.log(listaFiltrada)
-        mostrarCasa(listaFiltrada) 
-    });
-}
-botonT.addEventListener("click",ordenarTipo);
+function buscarPorTipo(tipo){
+    let filtrada = pisos.filter(x => x.TipoResidencia == tipo.text);
+    mostrarCasas(filtrada)
+};
 
-var botonI = document.getElementById("botonInteres")
-function ordenarInteres(){
-    fetch("api.json")
-        .then(res=> res.json())
-        .then(data =>{
-            let listaFiltradaI = [];
-            for(i=0; i< data.length; i++){
-                if(data[i].interes == "alquiler" && botonI.value == "alquiler"){
-                    listaFiltradaI.push(data[i])
-                } else if (data[i].interes == "venta" && botonI.value == "venta"){
-                    listaFiltradaI.push(data[i])
-                }
-            }
-        console.log(listaFiltradaI)
-        mostrarCasa(listaFiltradaI)
-    });
-}
-botonI.addEventListener("click",ordenarInteres)
-
-var botonB = document.getElementById("botonBarrio")
-function ordenarBarrio(){
-    fetch("api.json")
-        .then(res => res.json())
-        .then(data =>{
-            let listaFiltradaB = [];
-            for(i=0; i< data.length; i++){
-                if(data[i].barrio == "Cerro" && botonB.value == "Cerro"){
-                    listaFiltradaB.push(data[i])
-                }else if(data[i].barrio == "Casabo" && botonB.value == "Casabo"){
-                    listaFiltradaB.push(data[i])
-                }else if(data[i].barrio == "Ciudad Vieja" && botonB.value == "Ciudad Vieja"){
-                    listaFiltradaB.push(data[i])
-                }else if(data[i].barrio == "Pocitos" && botonB.value == "Pocitos"){
-                    listaFiltradaB.push(data[i])
-                }else if(data[i].barrio == "Aguada" && botonB.value == "Aguada"){
-                    listaFiltradaB.push(data[i])
-                }else if(data[i].barrio == "Buceo" && botonB.value == "Buceo"){
-                    listaFiltradaB.push(data[i])
-                }else if(data[i].barrio == "Punta Carretas" && botonB.value == "Punta Carretas"){
-                    listaFiltradaB.push(data[i])
-                }else if(data[i].barrio == "Parque Rodo" && botonB.value == "Parque Rodo"){
-                    listaFiltradaB.push(data[i])
-                }else if(data[i].barrio == "Centro" && botonB.value == "Centro"){
-                    listaFiltradaB.push(data[i])
-                }else if(data[i].barrio == "Artigas" && botonB.value == "Artigas"){
-                    listaFiltradaB.push(data[i])
-                }
-            }
-            console.log(listaFiltradaB)
-            mostrarCasa(listaFiltradaB)
-        })
-}
-botonB.addEventListener("click", ordenarBarrio)
+buscarTipo(tipo1);
+buscarTipo(tipo2);
+buscarTipo(tipo3);
 
 
-/* boton.barrio.addEventListener("click",ordenarBarrio)
-boton.interes.addEventListener("click",ordenarInteres) */
+//Busqueda por lugar
+let lugar1 = document.getElementById("lugar1");
+let lugar2 = document.getElementById("lugar2");
+let lugar3 = document.getElementById("lugar3");
+let lugar4 = document.getElementById("lugar4");
+let lugar5 = document.getElementById("lugar5");
+
+function buscarLugar(lugar){
+    lugar.addEventListener("click", function (){
+        buscarPorLugar(lugar)
+    })
+};
+
+function buscarPorLugar(lugar){
+    let filtrada = pisos.filter(x => x.Barrio == lugar.text);
+    mostrarCasas(filtrada)
+};
+
+buscarLugar(lugar1);
+buscarLugar(lugar2);
+buscarLugar(lugar3);
+buscarLugar(lugar4);
+buscarLugar(lugar5);
 
 
-/* var botonEnviar = document.getElementById("botonEnviar");
-var listado = [];
+//Busqueda por intereses
+let interes1 = document.getElementById("interes1");
+let interes2 = document.getElementById("interes2");
 
-function guardaDatos (){
-    var nombre = document.getElementById("nombre").value;
-    var apellido = document.getElementById("apellido").value;
-    var curso = document.getElementById("curso").value;
+function buscarInteres(interes){
+    interes.addEventListener("click", function (){
+        buscarPorInteres(interes)
+    })
+};
 
-    function persona(nombre, apellido, curso) {
-        this.nombre = nombre;
-        this.apellido = apellido;
-        this.curso = curso;
-    }
-    var personasIngresadas = new persona (nombre, apellido, curso);
-    listado.push(personasIngresadas);
-    document.getElementById("form").reset();
-    tabla(listado);
-    console.log(listado)
-}
-botonEnviar.addEventListener("click", guardaDatos);
+function buscarPorInteres(interes){
+    let filtrada = pisos.filter(x => x.TipoTramite == interes.text);
+    mostrarCasas(filtrada)
+};
 
-function tabla(listado){
-    var tabla = `
-    <table class = "table table-dark table-striped">
-        <thead>
-            <tr>
-                <th>Nombre</th>
-                <th>Apellido</th>
-                <th>Curso</th>
-            </tr>
-            </thead>
-            <tbody>`
-            for(let i=0; i < listado.length; i++){
-                var fila = listado[i];
-                tabla += `
-                <tr>
-                <td>${fila.nombre}</td>
-                <td>${fila.apellido}</td>
-                <td>${fila.curso}</td>
-                </tr>`
-            }
-            tabla += `
-            </tbody>
-            </table>`
-            document.getElementById("tabla").innerHTML = tabla;
-        }
- */
+buscarInteres(interes1);
+buscarInteres(interes2);
 
+
+//Busqueda por precios
+let precioRango = document.getElementById("precioRango");
+let min = 0;
+let max;
+
+precioRango.addEventListener("click", function (){
+    min = parseInt(document.getElementById("min").value);
+    max = parseInt(document.getElementById("max").value);
+    buscarPorPrecio(min, max)
+})
+
+function buscarPorPrecio(min, max){
+    let filtrada1 = pisos.filter(x => x.Precio >= min);
+    let filtrada2 = filtrada1.filter(x => x.Precio <= max)
+    mostrarCasas(filtrada2)
+};
+
+
+//Busqueda por habitaciones
+//Busqueda por Dimensiones
